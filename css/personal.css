@@ -35,3 +35,7 @@ div.box{
 div.box > h3, h5{
     color: white!important;
 }
+
+#about a{
+    color: blue!important;
+}
