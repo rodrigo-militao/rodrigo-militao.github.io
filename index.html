@@ -21,8 +21,7 @@
 
         <link href="css/personal.css" rel="stylesheet">
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/layout.css">
         
         <link href="css/hover.css" rel="stylesheet" type="text/css"/>
 
@@ -37,7 +36,7 @@
         <!--========== HEADER ==========-->
         <header class="header navbar-fixed-top">
             <!-- Navbar -->
-            <nav class="navbar" role="navigation" id="mynav" style="opacity: 0.50;">
+            <nav class="navbar" role="navigation" id="mynav" >
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="menu-container js_nav-item">
@@ -57,9 +56,9 @@
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">Sobre</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#projects">Experiência</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#projects">Projetos</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#skills">Habilidades</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#resume">Resumo</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#resume">Currículo</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contato</a></li>
                             </ul>
                         </div>
@@ -72,7 +71,7 @@
         <!--========== END HEADER ==========-->
 <!-- update -->
         <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="./img/perfil.jpg">
+        <div class="promo-block" id="main-header">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -98,32 +97,39 @@
                 
         
         <!-- About -->
-        <div id="about"  style="background-color: #F6F6F6;">
-            <div class="container" >
-                <div class="row" style="margin-top: 100px;">
-                    <div class="col-sm-3 sm-margin-b-30" >
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Sobre mim</h2>
-                            <p>Introdução</p>
-                           
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <div class="margin-b-60">
+        <div id="about" class="green-background"  style=" margin-top: 50px; color: white!important;">
 
-                            <p style="font-size: 20px;"> Tenho 20 anos, decidido a ser programador desde os 16, venho estudando e melhorando minhas habilidades. Atualmente domino HTML, CSS3, e as linguagens: JavaScript, PHP e Python. Havendo desenvolvido diversos projetos para utilizar em meu campo atual de trabalho. Meus trabalhos estarão disponíveis abaixo. Atualmente estudo na <a target="_blank" href="https://www.betrybe.com/">Trybe - Escola de Desenvolvimento de Software</a> e Computer Programming na <a target="_blank" href="https://www.byupathway.org/">BYU Patwhay Worldwide </a></p>
+            <div class="container">
 
-                            <p style="font-size: 20px;"><strong>Hobbies: </strong> Bom, recentemente descobri que gosto de escrever! Escrevo alguns artigos principalmente no Linkedin. Dá uma checada lá no meu <a target="_blank" href="https://www.linkedin.com/in/rodrigo-militao/">Perfiil</a>. Também adoro ler, então, aqui vai alguns de meus blogs e livros preferidos:</p>
-                            <ul style="font-size: 20px;">
-                                <li>O Livro de Mórmon, outro testamento de Jesus Cristo. <a target="_blank" href="https://www.vindeacristo.org/formularios/solicite-um-livro-de-mormon">Solicite</a> um agora, é gratis.</li>
-                                <li>Harry Potter - J.K Rowling (TODOS) </li>
-                                <li>Geração de Valor - Flávio Augusto da Silva</li>
-                                <li><a target="_blank" href="https://medium.com/">Medium</a> - Artigos sobre tecnologia, é com eles. Muito bom!</li>
-                            </ul>
-
-
-                    </div>
+                <div class="row" style="text-align: center; padding-top: 5%; padding-bottom: 1%;" >
+                    <h2 style="color: white!important;">Sobre mim</h2>
                 </div>
+
+                <div class="row" >
+
+                    <div class="col-md-4">
+                        
+                        <img src="./img/about.jpeg" alt="" height="450px" style="border-radius: 50%;">
+                        
+                    </div>
+
+                    <div class="col-md-8 ">
+
+                        <p style="font-size: 20px;"> Apaixonado por tecnologia e amo escrever! Escrevo alguns artigos principalmente no Linkedin. Dá uma checada lá no meu <a target="_blank" href="https://www.linkedin.com/in/rodrigo-militao/">Perfil</a>. Também adoro ler, então, aqui vai alguns de meus blogs e livros preferidos:</p>
+                        <ul style="font-size: 20px;">   
+                            <li>O Livro de Mórmon, outro testamento de Jesus Cristo. <a target="_blank" href="https://www.vindeacristo.org/formularios/solicite-um-livro-de-mormon">Solicite</a> um agora, é gratis.</li>
+                            <li>Harry Potter - J.K Rowling (TODOS) </li>
+                            <li>Geração de Valor - Flávio Augusto da Silva</li>
+                            <li><a target="_blank" href="https://medium.com/">Medium</a> - Artigos sobre tecnologia, é com eles. Muito bom!</li>
+                        </ul>
+
+                       
+                            <h3 style="font-size: 40px;"><a href="#projects"> O que já fiz? Clique aqui e veja alguns de meus projetos</a></h3>
+                        
+                        
+
+                </div>
+
                 <!--// end row -->
             </div>
             
@@ -138,13 +144,8 @@
         	<div  data-auto-height="true">
             <div class="container content-lg">
                 <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Projetos</h2>
-                            <p>Fique a vontade para dar uma olhada!</p>
-                        </div>
-                    </div>
-
+                    <h2>Projetos</h2>
+                    <h4>Cheque também meu Github para mais projetos. <a href="https://github.com/rodrigo-militao" target="_blank" class="social-icons"><i class="icon-social-github"></i></a></h4>
                 <!--// end row -->
                 </div>
                             <br><br>
@@ -206,15 +207,10 @@
         
         
         <!-- skills -->
-        <div id="skills" style="background-color: #F6F6F6;">
+        <div id="skills" class="green-background">
             <div class="container content-lg">
                 <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Habilidades</h2>
-                            <p>Última atualização 11/01/2020 </p>
-                        </div>
-                    </div>
+                            <h2>Habilidades</h2>
                     
                 </div><!--// end row -->
                   
@@ -278,7 +274,7 @@
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Resumo</h2>
+                                <h2 class="margin-b-0">Currículo</h2>
                                 <p>Última atualização 21/12/2020 </p>
                             </div>
                         </div>
@@ -312,17 +308,16 @@
 
             
         <!-- Contact -->
-        <div id="contact" style="background-color: #F6F6F6;">
+        <div id="contact" class="green-background">
             <div>
                 <div class="container content-lg">
                     <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
+                        
                                 <h2 class="margin-b-0">Contato</h2>
-                                <p>Sinta-se a vontade para enviar-me uma mensagem.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
+                                <p style="text-align: center;">Sinta-se a vontade para enviar-me uma mensagem.</p>
+                                <br>
+                        
+                        <div class="col-sm-8 col-sm-offset-3">
                             <div class="row">
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Local</h5>
@@ -334,7 +329,7 @@
                                 </div>
                                 <div class="col-md-3 col-xs-6">
                                     <h5>Email</h5>
-                                    <a href="mailto:rodrigo_militao@hotmail.com.br">rodrigo_militao@hotmail.com.br</a>
+                                    <h6><a href="mailto:rodrigo_militao@hotmail.com.br">rodrigo_militao@hotmail.com.br</a></h6>
                                 </div>
 
                             </div>
@@ -347,7 +342,7 @@
         </div>
 
         <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Voltar ao topo do site.</a>
 
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
