@@ -23,7 +23,7 @@ html {
 }
 
 h2{
-    font-size: 50px;
+      font-size: 50px;
 }
 
 a{
@@ -73,8 +73,9 @@ p {
   	[Promo Block]
 ------------------------------------------------------------------*/
 .promo-block {
-    padding: 220px 0 130px;
+    padding: 220px 0 200px;
     background-size: contain!important;
+    background-position: top center!important;
   }
   
   .promo-block .promo-block-title {
