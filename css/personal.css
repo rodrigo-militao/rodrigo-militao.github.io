@@ -74,8 +74,8 @@ p {
   	[Promo Block]
 ------------------------------------------------------------------*/
 .promo-block {
-    padding: 220px 0 200px;
-    background-size: contain!important;
+    padding: 220px 0 280px;
+    background-size: cover!important;
     background-position: top center!important;
   }
   
