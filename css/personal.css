@@ -9,7 +9,7 @@ html {
   body {
     background-color: #0D3C47;
     position: relative;
-    font-family: Hind, sans-serif;
+    font-family: 'Raleway', sans-serif!important;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -18,7 +18,6 @@ html {
   color: #fff;
   line-height: 1.4;
   margin: 0 0 15px;
-
 }
 
 h2{
@@ -33,7 +32,7 @@ a{
 p {
     font-size: 15px;
     font-weight: 400;
-    font-family: Hind, sans-serif;
+    font-family: 'Raleway', sans-serif!important;
     color: white;
     line-height: 1.4;
     margin-bottom: 15px;
@@ -80,7 +79,7 @@ p {
   
   .promo-block .promo-block-title {
     font-size: 70px;
-    color: #fff;
+    color: #F4E9CD;
     line-height: 1;
   }
   
