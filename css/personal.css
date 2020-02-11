@@ -17,13 +17,14 @@ html {
   font-family: Hind, sans-serif;
   color: #fff;
   line-height: 1.4;
-  text-align: center;
+  
   margin: 0 0 15px;
 
 }
 
 h2{
       font-size: 50px;
+      text-align: center;
 }
 
 a{
@@ -318,18 +319,10 @@ p {
 }
 
 
-div#about{
-    height: 45em;
-}
-
-
 a.nav-item-child{
     color: #F4E9CD!important;
 }
 
-#skills{
-    height: 45em;
-}
 
 div#skillsboxes{
     margin-top:8%;
@@ -353,12 +346,12 @@ div.box > h3, h5{
 }
 
 #main-header{
-    background-image: url(../img/header.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/header.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     background-attachment: fixed;
-    background-position: top center;
-
 }
 
 

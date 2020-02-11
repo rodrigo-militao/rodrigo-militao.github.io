@@ -241,7 +241,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Toggle */
 .header .navbar-toggle {
-  width: 25px;
+  width: 200px;
   height: 25px;
   border: none;
   padding: 0;
@@ -250,10 +250,10 @@ fieldset[disabled] .btn-theme {
 
 .header .navbar-toggle .toggle-icon {
   position: relative;
-  width: 21px;
-  height: 1px;
+  width: 40px;
+  height: 2px;
   display: inline-block;
-  background: #515769;
+  background: #F4E9CD;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -262,13 +262,13 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle .toggle-icon:before, .header .navbar-toggle .toggle-icon:after {
   position: absolute;
   left: 0;
-  background: #515769;
+  background: #F4E9CD;
   content: " ";
 }
 
 .header .navbar-toggle .toggle-icon:before {
-  width: 10px;
-  height: 1px;
+  width: 40px;
+  height: 2px;
   bottom: 10px;
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
@@ -279,8 +279,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle .toggle-icon:after {
-  width: 16px;
-  height: 1px;
+  width: 40px;
+  height: 2px;
   top: -5px;
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
