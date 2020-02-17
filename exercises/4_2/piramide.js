@@ -1,12 +1,14 @@
 const n = 5
-let icon = [' ', ' ', ' ', ' ', ' ']
-let index = 4
+let icon = [' ', ' ', '*', ' ', ' ']
+let index = 2
 
-console.log(icon[4])
 
-for (let i = 0; i < n; i+=1) {
-    icon[index] = '*'
-    index--
+for (let i = 0; i < 3; i+=1) {
     console.log(icon.join(''))
-    
+    icon[index-1] = '*'
+    icon[index+1] = '*'
+     if (i === 1) {
+        icon[index-2] = '*'
+        icon[index+2] = '*'
+    }
 }
