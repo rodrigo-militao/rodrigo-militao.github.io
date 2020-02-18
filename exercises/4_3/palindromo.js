@@ -9,4 +9,8 @@ function palindromo(word) {
     }
     return true;
    }
-   palindrome("A man, a plan, a canal. Panama");
+if (palindromo("araras")){
+  console.log('funcionou')
+}else{
+  console.log('Não funcionou')
+}

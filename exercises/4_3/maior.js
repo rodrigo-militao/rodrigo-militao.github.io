@@ -6,9 +6,9 @@ function maior(lista){
            maior = lista[item];
        }
     }
-    return maior;
+    console.log(maior);
 }
 
-lista = [2, 3, 6, 7, 10, 1];
+lista = [2, 3, 6, 7, 4, 1];
 
 maior(lista)
