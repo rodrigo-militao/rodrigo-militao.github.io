@@ -16,10 +16,8 @@ let infos2 = {
   //console.log(`Bem vinda, ${infos.personagem}`)
 
 for (const info in infos) {
-    if (infos.hasOwnProperty(info)) {
         const element = infos[info];
-        console.log(element)
-    }
+        console.log(element);
 }
 for (const info2 in infos2) {
     if (infos2.hasOwnProperty(info2)) {
