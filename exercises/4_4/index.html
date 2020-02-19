@@ -44,13 +44,48 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
-        1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
-        2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe.
-        3. Crie uma função que mude a cor do quadrado vermelho para branco.
-        4. Crie uma função que corrija o texto da tag <h1>.
-        5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-        6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)ok
+        2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe.ok
+        3. Crie uma função que mude a cor do quadrado vermelho para branco.ok
+        4. Crie uma função que corrija o texto da tag <h1>.ok
+        5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.ok
+        6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.ok
+            
         */
+       function daqui2anos(texto){
+            document.querySelector('div.main-content div.center-content p').innerHTML = texto;
+       }
+
+       function mudando_cor(color){
+           let content = document.querySelector('div.main-content');
+           content.style.background = color;
+       }
+
+       function mudando_quadrado_vermelho(color){
+           let content = document.querySelector('div.main-content div.center-content');
+           content.style.background = color;
+       }
+
+       function conserta_titulo(texto){
+            document.querySelector('h1.title').innerHTML = texto;
+       }
+
+       function tudo_maiusculo(){
+        let texto = document.querySelector('div.main-content div.center-content p');
+        texto.style.textTransform = "uppercase";
+       }
+
+       function tudo_console(){
+           let tags = document.querySelectorAll('p');
+           console.log(tags);
+       }
+        
+       daqui2anos("Me vejo sendo um cara bom, esforçado, empregado, pagando a trybe e vivendo do que amo.");
+       mudando_cor("green");
+       mudando_quadrado_vermelho("white");
+       conserta_titulo("Exercício 4.4 - JavaScript");
+       tudo_maiusculo();
+       tudo_console();
     </script>
   </body>
-</html>z
+</html>
