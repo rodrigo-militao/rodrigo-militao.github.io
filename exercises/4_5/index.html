@@ -66,11 +66,48 @@
 
         let center = document.createElement('div');
         center.className = 'center-content';
-        document.main.appendChild(center);
+        main.appendChild(center);
 
         let paragrafo = document.createElement('p');
         paragrafo.innerText = 'Passo 4 do exercício';
-        document.center.appendChild(paragrafo);
+        center.appendChild(paragrafo);
+
+        let left = document.createElement('div');
+        left.className = 'left-content';
+        main.appendChild(left);
+        
+        let right = document.createElement('div');
+        right.className = 'right-content';
+        main.appendChild(right);
+
+        let imagem = document.createElement('img');
+        imagem.src = 'https://picsum.photos/200';
+        imagem.className = 'small-image';
+        left.appendChild(imagem);
+
+        let lista = document.createElement('ul');
+
+        for (let i = 1; i <= 10; i++) {
+            let li = document.createElement('li');
+            li.innerText = i;
+            lista.appendChild(li)
+        }
+        right.appendChild(lista);
+
+        let tag1 = document.createElement('h3');
+        tag1.innerText = 'Primeiro h3';
+        main.appendChild(tag1);
+        let tag2 = document.createElement('h3');
+        tag2.innerText = 'Segundo h3';
+        main.appendChild(tag2);
+        let tag3 = document.createElement('h3');
+        tag3.innerText = 'Terceiro h3';
+        main.appendChild(tag3)
+
+
+
+
+
     </script>
   </body>
 </html>
