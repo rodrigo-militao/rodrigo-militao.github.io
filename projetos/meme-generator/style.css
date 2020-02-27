@@ -1,0 +1,10 @@
+#imgbox{
+    border: 2px #000 solid;
+    width: 450px;
+    height: 450px;
+}
+
+#imgbox > img{
+    width: 450px;
+    height: 450px;
+}

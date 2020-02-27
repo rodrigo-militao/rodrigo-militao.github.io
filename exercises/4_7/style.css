@@ -1,0 +1,115 @@
+html { overflow-x: hidden; }
+
+h1 { font-size: 35px; }
+
+body {
+  background-color: rgb(225 , 213 , 201);
+  margin: 0;
+  font-family: 'Times New Roma, Ancient Runes', serif;
+}
+
+#imgandtitulo { text-align: center; }
+
+#imgandtitulo img {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+nav {
+  background-color: rgb(40 , 62 , 74);
+  width: 100%;
+  text-align: center;
+  color: beige;
+}
+
+#darkmode, #lightmode{
+  color: beige;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: beige;
+  text-decoration: none;
+}
+
+nav ul li a:hover { color: burlywood; }
+
+article {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#post {
+  width: fit-content;
+  text-align: left;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: darkslategray;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  height: 50px;
+  padding-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+td , th {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+#sobre {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.fixed { position: fixed; }
+
+.lado-esquerdo {
+  float: left;
+  width: 30%;
+  margin-left: 100px;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+  margin-right: 100px;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
