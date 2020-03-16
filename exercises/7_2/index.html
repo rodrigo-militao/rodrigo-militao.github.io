@@ -9,6 +9,18 @@
     * {
       box-sizing: border-box;
     }
+    
+    @keyframes left-right {
+        0% {
+            margin-left: 0;
+        }
+        50% {
+            margin-left: 50%;
+        }
+        100% {
+            margin-left: 92%;
+        }
+    }
 
     section {
       display: flex;
@@ -26,7 +38,7 @@
     .align-items__flex-start { align-items: flex-start; }
     .automatic-box-height { height: auto; }
     .ball { border-radius: 100%; }
-    .green { background-color: green; }
+    .green { background-color: green; animation: left-right; animation-delay: 1s; animation-duration: 3s; animation-fill-mode: forwards;}
     .blue { background-color: blue; }
     .red { background-color: red; }
     .yellow { background-color: yellow; }

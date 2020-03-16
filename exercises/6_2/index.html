@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" href="DatePicker/dist/css/DatePickerX.min.css">
+	
+</head>
+<body>
+
+	<section class="section">
+
+		<div class="container">
+
+			<div class="columns">
+
+				<div class="column is-half">
+
+					<form>
+
+						<fieldset>
+							<div class="field">
+								<label class="label" for="name">Nome</label>
+								<input type="text" class="input" name="name" id="name" maxlength="40" required placeholder="Nome">
+							</div>
+
+							<div class="field">
+								<label class="label" for="email">Email</label>
+								<input type="text" class="input" name="email" id="email" maxlength="50" required placeholder="Email">
+							</div>
+
+							<div class="field">
+								<label class="label" for="cpf">CPF</label>
+								<input type="text" class="input" name="cpf" id="cpf" maxlength="11" required placeholder="CPF">
+							</div>
+
+							<div class="field">
+								<label class="label" for="endereco">Endereco</label>
+								<input type="text" class="input" name="endereco" id="endereco" maxlength="200" required placeholder="Endereço">
+							</div>
+
+							<div class="field">
+								<label for="cidade" class="label">Cidade</label>
+								<input type="text" class="input" name="cidade" id="cidade" maxlength="28" rquired placeholder="Cidade">
+
+							</div>
+
+							<div class="field">
+								<div class="select">
+
+								<select name="estado" id="estado" required>
+									<option class="option" value="Pernambuco">Pernambuco</option>
+
+									<option class="option" value="São Paulo">São Paulo</option>
+								</select>
+
+								</div>
+							</div>
+
+							<div class="control">
+								  <label class="radio">
+								    <input type="radio" name="tipo">
+								    Casa
+								  </label>
+								  <label class="radio">
+								    <input type="radio" name="tipo">
+								    Apartamento
+								  </label>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<div class="field">
+								<label for="pouco" class="label">Diga-nos um pouco sobre você</label>
+								<textarea class="textarea" maxlength="1000" required name="pouco" id="pouco"></textarea>
+							</div>
+
+							<div class="field">
+								<label for="cargo" class="label">Cargo</label>
+								<input type="text" class="input" name="cargo" id="cargo" maxlength="40" required placeholder="Cargo">
+
+							</div>
+
+							<div class="field">
+								<label for="desccargo" class="label">Descrição do Cargo</label>
+								<input class="input" type="text" name="desccargo" id="desccargo" maxlength="500" required placeholder="Descrição do cargo">
+
+							</div>
+
+							<div class="field">
+								<label for="datepicker" class="label">Data de Admissão</label>
+								<div class="control">
+									<input class="input" type="text" name="data" id="datepicker" required pattern="dd/mm/yyyy" placeholder="Data de admissão">
+								</div>
+							</div>
+
+							<div class="field is-grouped">
+								<div class="control">
+									<button class="button is-link">Enviar</button>
+								</div>
+								<div class="control">
+								    <button class="button is-link is-light">Cancel</button>
+								 </div>
+							</div>
+
+						</fieldset>
+
+
+					
+					
+					</form>
+				</div>
+
+				<div class="colum">
+			
+					<div id="dados">
+						<h2 class="title"> Dados do candidato </h2>
+					</div>
+				</div><!-- /column -->
+
+			</div><!-- /columns -->
+		</div><!-- /container -->
+
+	</section>
+
+<script src="DatePicker/dist/js/DatePickerX.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+<script>
+	
+</script>
+</body>
+</html>
