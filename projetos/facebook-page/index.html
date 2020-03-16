@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Facebook Clone, by Rodrigo Militão.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header id="header">
+		<nav class="container navbar" id="nav">
+			<ul>
+				<li class="navbar-brand" id="brand"><a class="navbar-item" href="#">facebook</a></li>
+			</ul>
+			
+			<div class="navbar-end">
+				<div class="navbar-item">
+					<form action="" method="get" accept-charset="utf-8">
+					<div class="field is-grouped">
+			
+							<div class="control">
+								<label for="email" class="label">Email ou telefone:</label>
+							    <input class="input is-small" type="email" id="email" required>
+						    </div>
+						
+							<div class="control">
+								<label for="password" class="label">Senha:</label>
+						    	<input class="input is-small" type="password" id="password" required>
+						    </div>
+
+						    <div class="control">
+								<input type="submit" value="Entrar" class="input is-small" id="btn_enter">
+						  	</div>
+
+						</div>	
+					</form>
+					
+				</div>
+			</div>	
+
+
+		</nav>
+	</header><!-- /header -->
+
+	<section id="main-section" class="container">
+
+		<div class="left" id="connect-facebook">
+			<h3 id="connect-text" class="left">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+			<img src="img/connect.png" alt="O Facebook conecta as pessoas">
+		</div>
+
+		<div class="right  anima">
+			<h2 class="title">Abra uma conta</h2>
+			<h4 class="subtitle anima">É rápido e fácil.</h4>
+
+			<form action="">
+				<div class="field is-grouped">
+					<div class="control">
+						<input type="text" id="nome" required placeholder="Nome" class="input">
+					</div>
+					
+					<div class="control">
+						<input type="text" id="sobrenome" required placeholder="Sobrenome" class="input">
+					</div>
+				</div>
+
+				<div class="field">
+					<input type="text" id="celoremail" placeholder="Celular ou Email" required class="input">
+				</div>
+
+				<div class="field">
+					<input type="password" id="password" placeholder="Nova Senha" required class="input">
+				</div>
+
+				<div class="field">
+					<label for="" class="label">Data de Nascimento</label>
+					<input type="number" name="day" id="day">
+					<input type="number" name="month" id="month">
+					<input type="number" name="year" id="year">
+				</div>
+
+				<div class="field">
+					<label for="" class="label">Gênero</label>
+
+					<div class="control">
+						<label class="radio">
+						  <input type="radio" name="gender">
+						  Masculino
+						</label>
+						<label class="radio">
+						  <input type="radio" name="gender">
+						  Feminino
+						</label>
+						<label class="radio">
+							<input type="radio" name="gender">
+							Personalizado
+						</label>
+
+					</div>
+				</div>
+
+				<input type="submit" value="Cadastre-se" class="button is-success">
+			</form>
+		</div>
+
+
+	</section>
+
+	<footer id="footer">
+		<h2>Criado por: Rodrigo Militão, aluno da Trybe, projeto da semana 6 do curso de Desenvolvimento de Software! <a href="https://github.com/rodrigo-militao" target="_blank">Github</a></h2>
+	</footer>
+
+
+<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
