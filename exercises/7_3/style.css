@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+
+.cartaverso {
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+}
+
+table{
+    display: flex;
+    
+}
+
+tr {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    width: 1250px;
+}
