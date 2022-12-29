@@ -2,7 +2,7 @@
   "header": {
     "name": "Rodrigo Militão",
     "description": "Engenheiro de Software Full Stack",
-    "imgPath": "src/assets/RodrigoMilitao.jpeg",
+    "imgPath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitao.jpeg",
     "links": [
       {
       "name": "LinkedIn",
