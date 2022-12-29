@@ -39,7 +39,7 @@
         {
           "name": "Oi S.A (Dez 2020 - Aug 2021)",
           "link": "",
-          "text": "Atuei como desenvolvedor web Full Stack, era integrante do time de Rentabilização da empresa. Principais atividades: Desenvolvimento web full stack, Elaboração e desenvolvimento de fluxos, telas, funcionalidades e melhorias para os clientes. Utilizando tecnologias como: ReactJS, NodeJs, Redis, MongoDB, Jenkins, Git, Docker"
+          "text": "Atuei como desenvolvedor web Full Stack, era integrante do time de Rentabilização da empresa. Principais atividades: Desenvolvimento web full stack, Elaboração e desenvolvimento de fluxos, telas, funcionalidades e melhorias para os clientes. Utilizando tecnologias como: ReactJS, NodeJs, Redis, MongoDB, Jenkins, Git, Docker."
         }
       ]
     },
@@ -49,12 +49,12 @@
         {
           "name": "Canada Software",
           "link": "https://canada-software.com/",
-          "text": "Blog dinamico e interativo usando HTML, CSS, Javascript e PHP"
+          "text": "Blog dinamico e interativo usando HTML, CSS, Javascript e PHP."
         },
         {
           "name": "JSantos Investimentos",
           "link": "https://jsantosinvestimentos.com.br/",
-          "text": "Incrível landing page usando HTML, CSS, Javascript e PHP"
+          "text": "Incrível landing page usando HTML, CSS, Javascript e PHP."
         }
       ]
     },
@@ -64,17 +64,17 @@
         {
           "name": "Linguagens & Frameworks",
           "link": "",
-          "text": "JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET"
+          "text": "JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET."
         },
         {
           "name": "Bancos de dados",
           "link": "",
-          "text": "MongoDB, Redis, PostgreSQL, MySQL"
+          "text": "MongoDB, Redis, PostgreSQL, MySQL."
         },
         {
           "name": "Outros",
           "link": "",
-          "text": "Docker, CI / CD, Microservices, API design, Agile / Scrum, Kafka, RabbitMq"
+          "text": "Docker, CI / CD, Microservices, API design, Agile / Scrum, Kafka, RabbitMq."
         }
       ]
     }
