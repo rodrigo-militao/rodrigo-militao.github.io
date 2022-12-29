@@ -10,13 +10,13 @@ interface SectionTitle {
 export default function Section(prop: SectionTitle) {
   return (
     <Grid container pt={6} spacing={2} alignItems="start">
-      <Grid xs={2}>
+      <Grid lg={2}>
         <Typography variant="h6" gutterBottom color={"#718096"} fontWeight={300} fontSize={".875rem"}>
           {prop.name}
         </Typography>
       </Grid>
 
-      <Grid xs={10}>
+      <Grid lg={10}>
           {prop.content.map(content => 
             <>
               {(content.name != "") && 
