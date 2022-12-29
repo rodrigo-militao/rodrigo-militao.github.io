@@ -1,0 +1,78 @@
+{
+  "header": {
+    "name": "Rodrigo Militão",
+    "description": "Engenheiro de Software Full Stack",
+    "imgPath": "src/assets/RodrigoMilitao.jpeg",
+    "links": [
+      {
+      "name": "LinkedIn",
+      "link": "https://linkedin.com/in/rodrigo-militao/"
+    },{
+      "name": "Github",
+      "link": "https://github.com/rodrigo-militao/"
+    }
+  ]
+  },
+  "sections": [
+    {
+      "name": "SOBRE MIM",
+      "content":[
+        {
+          "name": "",
+          "link": "",
+          "text": "Experiência de 4 anos com experiência em Engenharia de Software e desenvolvimento de aplicações seguras e escaláveis. Me considero uma pessoa com sede de aprender, e apaixonado por novos desafios. Normalmente os desafios mais difícieis são os que mais me motivam."
+        }
+      ]
+    },
+    {
+      "name": "EXPERIÊNCIA",
+      "content":[
+        {
+          "name": "XP Inc. (Aug 2021 - Presente)",
+          "link": "",
+          "text": "Atuo como Software Engineer Backend, no ecossistema de Cartões da empresa que possue mais de 400 mil usuários ativos. As principais responsabilidades consistem na manutenção de vários Microserviços .NET em uma arquitetura distribuída que se comunica usando o Apache Kafka com Azure Event Hubs, bem como Datadog para logging e Docker para trabalhar com aplicativos em container."
+        },
+        {
+          "name": "Oi S.A (Dez 2020 - Aug 2021)",
+          "link": "",
+          "text": "Atuei como desenvolvedor web Full Stack, era integrante do time de Rentabilização da empresa. Principais atividades: Desenvolvimento web full stack, Elaboração e desenvolvimento de fluxos, telas, funcionalidades e melhorias para os clientes. Utilizando tecnologias como: ReactJS, NodeJs, Redis, MongoDB, Jenkins, Git, Docker"
+        }
+      ]
+    },
+    {
+      "name": "PROJETOS",
+      "content": [
+        {
+          "name": "Canada Software",
+          "link": "https://canada-software.com/",
+          "text": "Blog dinamico e interativo usando HTML, CSS, Javascript e PHP"
+        },
+        {
+          "name": "JSantos Investimentos",
+          "link": "https://jsantosinvestimentos.com.br/",
+          "text": "Incrível landing page usando HTML, CSS, Javascript e PHP"
+        }
+      ]
+    },
+    {
+      "name": "HABILIDADES",
+      "content": [
+        {
+          "name": "Linguagens & Frameworks",
+          "link": "",
+          "text": "JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET"
+        },
+        {
+          "name": "Bancos de dados",
+          "link": "",
+          "text": "MongoDB, Redis, PostgreSQL, MySQL"
+        },
+        {
+          "name": "Outros",
+          "link": "",
+          "text": "Docker, CI / CD, Microservices, API design, Agile / Scrum, Kafka, RabbitMq"
+        }
+      ]
+    }
+  ]
+}

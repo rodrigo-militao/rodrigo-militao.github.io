@@ -1,0 +1,77 @@
+{
+  "header": {
+    "name": "Rodrigo Militão",
+    "description": "Full Stack Software Engineer based in Brasil",
+    "imgPath": "src/assets/RodrigoMilitao.jpeg",
+    "links": [
+      {
+      "name": "LinkedIn",
+      "link": "https://linkedin.com/in/rodrigo-militao/"
+    },{
+      "name": "Github",
+      "link": "https://github.com/rodrigo-militao/"
+    }]
+  },
+  "sections": [
+    {
+      "name": "ABOUT ME",
+      "content":[
+        {
+          "name": "",
+          "link": "",
+          "text": "4 years experience with experience in Software Engineering and development of secure and scalable applications. I consider myself a person thirsty to learn, and passionate about new challenges. Usually the hardest challenges are the ones that motivate me the most."
+        }
+      ]
+    },
+    {
+      "name": "EXPERIENCE",
+      "content":[
+        {
+          "name": "XP Inc. (Aug 2021 - Present)",
+          "link": "",
+          "text": "I work as Backend Software Engineer, in the company's Cards ecosystem that has more than 400 thousand active users. Main responsibilities consist of maintaining various .NET Microservices in a distributed architecture that communicate using Apache Kafka with Azure Event Hubs, as well as Datadog for logging and Docker for working with containerized applications."
+        },
+        {
+          "name": "Oi S.A (Dez 2020 - Aug 2021)",
+          "link": "",
+          "text": "I worked as a Full Stack web developer, I was a member of the company's Profitability team. Main activities: Full Stack Web Development, elaboration and development of flows, screens, functionalities and improvements for customers. Using technologies such as: ReactJS, NodeJs, Redis, MongoDB, Jenkins, Git, Docker"
+        }
+      ]
+    },
+    {
+      "name": "PROJECTS",
+      "content": [
+        {
+          "name": "Canada Software",
+          "link": "https://canada-software.com/",
+          "text": "Interative and dynamic blog using HTML, CSS, Javascript and PHP"
+        },
+        {
+          "name": "JSantos Investimentos",
+          "link": "https://jsantosinvestimentos.com.br/",
+          "text": "Amazing landing page using HTML, CSS, Javascript and PHP"
+        }
+      ]
+    },
+    {
+      "name": "SKILLS",
+      "content": [
+        {
+          "name": "Languages & Frameworks",
+          "link": "",
+          "text": "JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET"
+        },
+        {
+          "name": "Databases",
+          "link": "",
+          "text": "MongoDB, Redis, PostgreSQL, MySQL"
+        },
+        {
+          "name": "Other",
+          "link": "",
+          "text": "Docker, CI / CD, Microservices, API design, Agile / Scrum, Kafka, RabbitMq"
+        }
+      ]
+    }
+  ]
+}
