@@ -1,13 +1,13 @@
 import * as React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
-import { Link, Typography, Avatar, Button } from '@mui/material';
+import { Link, Typography, Avatar } from '@mui/material';
 import Context from "./Context"
 import { useTheme } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
-import { GetApp } from '@mui/icons-material';
-
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import GTranslateIcon from '@mui/icons-material/GTranslate';
 
 interface HeaderData {
   name: string;
@@ -56,24 +56,21 @@ export default function Header(prop: { data: HeaderData, language: string, toggl
       </Grid>
       <Grid>
         <IconButton sx={{ ml: 1 }} onClick={prop.toggleLanguage} color="inherit">
-          {prop.language == 'en' ? 'pt' : 'en'}
+          <GTranslateIcon />
         </IconButton>
 
         <IconButton sx={{ ml: 1 }} onClick={context.toggleColorMode} color="inherit">
           {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
         </IconButton>
-        <Button
-          sx={{ ml: 1 }}
-          variant="contained"
+
+        <IconButton 
+          sx={{ ml: 1 }} 
+          href={prop.data.resumePath} 
+          download="RodrigoMilitaoResume.pdf" 
           color="inherit"
-          size="small"
-          startIcon={<GetApp />}
-          component={Link}
-          href={prop.data.resumePath}
-          download="RodrigoMilitaoResume.pdf"
         >
-          PDF
-        </Button>
+          <PictureAsPdfIcon />
+        </IconButton>
       </Grid>
     </Grid>
   )

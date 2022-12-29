@@ -21,7 +21,9 @@ export default function Section(prop: SectionTitle) {
             <>
               {(content.name != "") && 
               content.link != "" ?
-              <Link target={"_blank"} underline="none" color="inherit" variant="h6" href={content.link}>{content.name}</Link> :
+              <Link target={"_blank"} fontWeight={600} underline="hover" color="inherit" variant="h6" href={content.link}>
+                {content.name}
+              </Link> :
               <Typography variant="h6" gutterBottom fontWeight={600}>
                 {content.name}
               </Typography>
