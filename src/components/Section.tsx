@@ -11,7 +11,7 @@ export default function Section(prop: SectionTitle) {
   return (
     <Grid container pt={6} spacing={2} alignItems="start">
       <Grid lg={2}>
-        <Typography variant="h6" gutterBottom color={"#718096"} fontWeight={300} fontSize={".875rem"}>
+        <Typography variant="h6" gutterBottom fontWeight={300} fontSize={".875rem"}>
           {prop.name}
         </Typography>
       </Grid>
@@ -21,14 +21,21 @@ export default function Section(prop: SectionTitle) {
             <>
               {(content.name != "") && 
               content.link != "" ?
-              <Link target={"_blank"} fontWeight={600} underline="hover" color="inherit" variant="h6" href={content.link}>
+              <Link 
+                target={"_blank"} 
+                fontWeight={600} underline="hover" color="inherit" variant="h6" href={content.link}
+                style={{
+                  color: "#6cb7ff"
+                }}>
                 {content.name}
               </Link> :
-              <Typography variant="h6" gutterBottom fontWeight={600}>
+              <Typography variant="h6" gutterBottom fontWeight={600}
+              color="#6cb7ff"
+              >
                 {content.name}
               </Typography>
               }
-              <Typography variant="body1" pb={3} gutterBottom color={"#718096"}>
+              <Typography variant="body1" fontWeight={300} pb={3} gutterBottom>
                 {content.text}
               </Typography>
             </>

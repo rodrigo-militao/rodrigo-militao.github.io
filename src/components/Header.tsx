@@ -32,11 +32,18 @@ export default function Header(prop: { data: HeaderData, language: string, toggl
         </Grid>
 
         <Grid>
-          <Typography variant="h1" mb={0} gutterBottom fontWeight={700} fontSize="3rem">
+          <Typography
+           variant="h1" mb={0} gutterBottom fontWeight={900} fontSize="3.5rem"
+            style={{
+              background: "-webkit-linear-gradient(45deg, #3b82f6, #2dd4bf)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }} 
+          >
             {prop.data.name}
           </Typography>
 
-          <Typography variant="body2" gutterBottom fontWeight={600} color="#718096">
+          <Typography variant="body2" gutterBottom fontWeight={600}>
             {prop.data.description}
           </Typography>
 
@@ -55,13 +62,13 @@ export default function Header(prop: { data: HeaderData, language: string, toggl
         </Grid>
       </Grid>
       <Grid>
-        <IconButton sx={{ ml: 1 }} onClick={prop.toggleLanguage} color="inherit">
+        {/* <IconButton sx={{ ml: 1 }} onClick={prop.toggleLanguage} color="inherit">
           <GTranslateIcon />
-        </IconButton>
+        </IconButton> */}
 
-        <IconButton sx={{ ml: 1 }} onClick={context.toggleColorMode} color="inherit">
+        {/* <IconButton sx={{ ml: 1 }} onClick={context.toggleColorMode} color="inherit">
           {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
-        </IconButton>
+        </IconButton> */}
 
         <IconButton 
           sx={{ ml: 1 }} 

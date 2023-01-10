@@ -17,30 +17,30 @@ function App() {
     }), []);
     
 
-  const [mode, setMode] = React.useState<'light' | 'dark'>('light');
+  const [mode, setMode] = React.useState<'light' | 'dark'>('dark');
   const [language, setLanguage] = React.useState<'en' | 'pt'>('en');
   const theme = React.useMemo(
     () =>
       createTheme({
         typography: {
-          fontFamily: [
-            '-apple-system',
-            'BlinkMacSystemFont',
-            '"Segoe UI"',
-            'Roboto',
-            '"Helvetica Neue"',
-            'Arial',
-            'sans-serif',
-            '"Apple Color Emoji"',
-            '"Segoe UI Emoji"',
-            '"Segoe UI Symbol"',
-          ].join(','),
+          // fontFamily: [
+          //   '-apple-system',
+          //   'BlinkMacSystemFont',
+          //   '"Segoe UI"',
+          //   'Roboto',
+          //   '"Helvetica Neue"',
+          //   'Arial',
+          //   'sans-serif',
+          //   '"Apple Color Emoji"',
+          //   '"Segoe UI Emoji"',
+          //   '"Segoe UI Symbol"',
+          // ].join(','),
         },
         palette: {
           mode,
           ...(mode === 'dark' && {
             background: {
-              default: '#242424',
+              default: '#111827',
             }
           })
         },
