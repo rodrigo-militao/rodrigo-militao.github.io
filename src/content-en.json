@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Rodrigo Militão",
-    "description": "Full Stack Software Engineer based in Brasil",
+    "description": "Backend Software Engineer based in Brasil",
     "imgPath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitao.jpeg",
     "resumePath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/resumeRodrigoMilitao.pdf",
     "links": [
@@ -14,6 +14,9 @@
     },{
       "name": "+55 (81) 98349-5469",
       "link": "tel: +5581983495469"
+    },{
+      "name": "LeetCode",
+      "link": "https://leetcode.com/rodrigo-militao/"
     }]
   },
   "sections": [
@@ -39,21 +42,6 @@
           "name": "Oi S.A (Dez 2020 - Aug 2021)",
           "link": "",
           "text": "I worked as a Full Stack web developer, I was a member of the company's Profitability team. Main activities: Full Stack Web Development, elaboration and development of flows, screens, functionalities and improvements for customers. Using technologies such as: ReactJS, NodeJs, Redis, MongoDB, Jenkins, Git, Docker."
-        }
-      ]
-    },
-    {
-      "name": "PROJECTS",
-      "content": [
-        {
-          "name": "Canada Software",
-          "link": "https://canada-software.com/",
-          "text": "Interative and dynamic blog using HTML, CSS, Javascript and PHP."
-        },
-        {
-          "name": "JSantos Investimentos",
-          "link": "https://jsantosinvestimentos.com.br/",
-          "text": "Amazing landing page using HTML, CSS, Javascript and PHP."
         }
       ]
     },
