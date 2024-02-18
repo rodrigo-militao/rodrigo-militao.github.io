@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Rodrigo Militão",
-    "description": "Engenheiro de Software Full Stack",
+    "description": "Engenheiro de Software Backend",
     "imgPath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitao.jpeg",
     "resumePath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/curriculoRodrigoMilitao.pdf",
     "links": [
@@ -14,7 +14,11 @@
     },{
       "name": "+55 (81) 98349-5469",
       "link": "tel: +5581983495469"
-    }
+    },
+      {
+        "name": "LeetCode",
+        "link": "https://leetcode.com/rodrigo-militao/"
+      }
   ]
   },
   "sections": [
@@ -40,21 +44,6 @@
           "name": "Oi S.A (Dez 2020 - Aug 2021)",
           "link": "",
           "text": "Atuei como desenvolvedor web Full Stack, era integrante do time de Rentabilização da empresa. Principais atividades: Desenvolvimento web full stack, Elaboração e desenvolvimento de fluxos, telas, funcionalidades e melhorias para os clientes. Utilizando tecnologias como: ReactJS, NodeJs, Redis, MongoDB, Jenkins, Git, Docker."
-        }
-      ]
-    },
-    {
-      "name": "PROJETOS",
-      "content": [
-        {
-          "name": "Canada Software",
-          "link": "https://canada-software.com/",
-          "text": "Blog dinamico e interativo usando HTML, CSS, Javascript e PHP."
-        },
-        {
-          "name": "JSantos Investimentos",
-          "link": "https://jsantosinvestimentos.com.br/",
-          "text": "Incrível landing page usando HTML, CSS, Javascript e PHP."
         }
       ]
     },
