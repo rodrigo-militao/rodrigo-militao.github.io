@@ -1,9 +1,9 @@
 {
   "header": {
     "name": "Rodrigo Militão",
-    "description": "Backend Software Engineer based in Brasil",
+    "description": "Senior Software Engineer based in Brasil",
     "imgPath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/Rodrigo2.jpeg",
-    "resumePath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitao-Resume-2.pdf",
+    "resumePath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitaoResume.pdf",
     "links": [
       {
       "name": "LinkedIn",
@@ -26,7 +26,7 @@
         {
           "name": "",
           "link": "",
-          "text": "👨‍💻️ I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. With 5 years of experience with Software Engineering and development of secure and scalable applications. I consider myself a person thirsty to learn, and passionate about new challenges. Usually the hardest challenges are the ones that motivate me the most."
+          "text": "👨‍💻️ I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. With 6 years of experience with Software Engineering and development of secure and scalable applications. I consider myself a person thirsty to learn, and passionate about new challenges. Usually the hardest challenges are the ones that motivate me the most."
         }
       ]
     },
@@ -34,9 +34,14 @@
       "name": "EXPERIENCE",
       "content":[
         {
-          "name": "XP Inc. (Aug 2021 - Present)",
+          "name": "Bradesco (Aug 2024 - Present)",
           "link": "",
-          "text": "I work as Backend Software Engineer, in the company's Cards ecosystem that has more than 400 thousand active users. Main responsibilities consist of maintaining various .NET Microservices in a distributed architecture that communicate using Apache Kafka with Azure Event Hubs, as well as Datadog for logging and Docker for working with containerized applications."
+          "text": "As a Senior Software Engineer, Develop microservices for a Cards ecosystem serving 5M+ users, using Git, REST APIs, Java, SpringBoot, Kafka, SQL Server, MongoDB, Github Actions and Azure in Angile teams (Scrum). Optimize real-time processing with Azure and MongoDB, improving reliability"
+        },
+        {
+          "name": "XP Inc. (Aug 2021 - Aug 2024)",
+          "link": "",
+          "text": "I worked as Backend Software Engineer, in the company's Cards ecosystem that has more than 400 thousand active users. Main responsibilities consist of maintaining various .NET Microservices in a distributed architecture that communicate using Apache Kafka with Azure Event Hubs, as well as Datadog for logging and Docker for working with containerized applications."
         },
         {
           "name": "Oi S.A (Dez 2020 - Aug 2021)",
@@ -51,17 +56,17 @@
         {
           "name": "Languages & Frameworks",
           "link": "",
-          "text": "JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET."
+          "text": "Java, JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET."
         },
         {
           "name": "Databases",
           "link": "",
-          "text": "MongoDB, Redis, PostgreSQL, MySQL."
+          "text": "MongoDB, Redis, PostgreSQL, MySQL, SQL Server."
         },
         {
           "name": "Other",
           "link": "",
-          "text": "Docker, CI / CD, Microservices, API design, Agile / Scrum, Kafka, RabbitMq."
+          "text": "Docker, CI/CD (Jenkins, Github Actions), Microservices, API design, RESTful APIs, Agile/Scrum, Kafka, RabbitMq."
         }
       ]
     }
