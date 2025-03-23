@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Updated to v3
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4   # Updated to v4
         with:
           node-version: 16
 
@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@a8a3f396e6ef3ab5e4933ad0c9237fa888dc35dd  # Pinned version with SHA
         with:
           name: production-files
           path: ./dist
@@ -39,7 +39,7 @@ jobs:
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@c7469c2007aa4ea78f5a61cae466e988a152b2f3  # Pinned version with SHA
         with:
           name: production-files
           path: ./dist
