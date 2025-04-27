@@ -18,12 +18,16 @@ export default function Section(prop: SectionTitle) {
 
       <Grid lg={10}>
           {prop.content.map(content => 
-            <>
+            <div key={content.name}>
               {(content.name != "") && 
               content.link != "" ?
-              <Link 
+              <Link
                 target={"_blank"} 
-                fontWeight={600} underline="hover" color="inherit" variant="h6" href={content.link}
+                fontWeight={600} 
+                underline="hover" 
+                color="inherit" 
+                variant="h6" 
+                href={content.link}
                 style={{
                   color: "#6cb7ff"
                 }}>
@@ -38,7 +42,7 @@ export default function Section(prop: SectionTitle) {
               <Typography variant="body1" fontWeight={300} pb={3} gutterBottom>
                 {content.text}
               </Typography>
-            </>
+            </div>
             )}
       </Grid>
     </Grid>

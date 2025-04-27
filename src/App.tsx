@@ -22,20 +22,7 @@ function App() {
   const theme = React.useMemo(
     () =>
       createTheme({
-        typography: {
-          // fontFamily: [
-          //   '-apple-system',
-          //   'BlinkMacSystemFont',
-          //   '"Segoe UI"',
-          //   'Roboto',
-          //   '"Helvetica Neue"',
-          //   'Arial',
-          //   'sans-serif',
-          //   '"Apple Color Emoji"',
-          //   '"Segoe UI Emoji"',
-          //   '"Segoe UI Symbol"',
-          // ].join(','),
-        },
+        typography: {},
         palette: {
           mode,
           ...(mode === 'dark' && {
@@ -66,7 +53,8 @@ function App() {
           />
           {
             CONTENT.sections.map(section => 
-              <Section 
+              <Section
+                key={section.name}
                 name={section.name}
                 content={section.content}
               />)

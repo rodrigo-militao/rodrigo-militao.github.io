@@ -49,9 +49,17 @@ export default function Header(prop: { data: HeaderData, language: string, toggl
 
           <Grid container pl={2} columnSpacing={4} pt={4}>
             {
-              prop.data.links.map(link =>
-                <Grid pl={0}>
-                  <Link textTransform={"uppercase"} target={"_blank"} fontWeight={600} fontSize=".75rem" color="#718096" underline="none" href={link.link}>
+              prop.data.links.map((link ,i) =>
+                <Grid key={i} pl={0}>
+                  <Link
+                    textTransform={"uppercase"} 
+                    target={"_blank"} 
+                    fontWeight={600} 
+                    fontSize=".75rem" 
+                    color="#718096" 
+                    underline="none" 
+                    href={link.link}
+                  >
                     {link.name}
                   </Link>
                 </Grid>
