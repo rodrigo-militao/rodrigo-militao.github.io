@@ -3,7 +3,7 @@
     "name": "Rodrigo Militão",
     "description": "Senior Software Engineer based in Brasil",
     "imgPath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/Rodrigo2.jpeg",
-    "resumePath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitaoResume.pdf",
+    "resumePath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/RodrigoMilitaoCurriculum.pdf",
     "links": [
       {
       "name": "LinkedIn",
@@ -26,7 +26,7 @@
         {
           "name": "",
           "link": "",
-          "text": "👨‍💻️ I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. With 6 years of experience with Software Engineering and development of secure and scalable applications. I consider myself a person thirsty to learn, and passionate about new challenges. Usually the hardest challenges are the ones that motivate me the most."
+          "text": "👨‍💻️ I'm a Software Engineer with over 5 years of experience developing Java, C# and NodeJS applications and microservices for high-scale environments (5M+ users). Specialist in Java, Spring Framework, C#, .NET, Typescript, NodeJS,  Docker, Kubernetes, AWS, SQL, and microservices architecture. Strong background in Agile teams (Scrum), with a focus on delivering robust, scalable, and high-performance solutions. Experienced in continuous integration (CI/CD), messaging systems (Kafka, RabbitMQ), and software quality and testing practices. Familiar with data privacy principles and risk management strategies. Advanced fluent English (C1) for technical communication and international collaboration."
         }
       ]
     },
@@ -56,7 +56,7 @@
         {
           "name": "Languages & Frameworks",
           "link": "",
-          "text": "Java, JavaScript, Typescript, Node.js, Express.js, React, PHP, C#, .NET."
+          "text": "Java, C#, .NET, JavaScript, Typescript, Node.js, Express.js, React, AngularJS."
         },
         {
           "name": "Databases",
