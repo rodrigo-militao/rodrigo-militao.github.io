@@ -1,0 +1,373 @@
+{
+  "header": {
+    "name": "Rodrigo Militão",
+    "description": {
+      "en": "Brazilian software engineer who loves to build, write, and learn new things.",
+      "pt": "Engenheiro de software brasileiro que ama construir, escrever e aprender coisas novas."
+    },
+    "imgPath": "https://raw.githubusercontent.com/rodrigo-militao/rodrigo-militao.github.io/main/src/assets/Rodrigo2.jpeg",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "link": "https://linkedin.com/in/rodrigo-militao/"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/rodrigo-militao/"
+      },
+      {
+        "name": "Blog",
+        "link": "https://rodrigomilitao.substack.com/"
+      },
+      {
+        "name": "Email",
+        "link": "mailto:militaorodrigo9@gmail.com"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "about",
+      "title": {
+        "en": "ABOUT",
+        "pt": "SOBRE"
+      },
+      "body": {
+        "en": "I'm a software engineer who believes great code is built on curiosity, clarity, and craft. I specialize in distributed systems and microservices, currently building for millions of users at one of Brazil's largest banks.\n\nBeyond the terminal, I love writing — I run a blog exploring software engineering and the thinking behind good design. I read constantly (fiction, philosophy, tech), and I'm always learning something new (currently Rust).",
+        "pt": "Sou engenheiro de software que acredita que código de qualidade se constrói com curiosidade, clareza e ofício. Especializado em sistemas distribuídos e microsserviços, atualmente construindo para milhões de usuários em um dos maiores bancos do Brasil.\n\nAlém do terminal, amo escrever — mantenho um blog sobre engenharia de software e o pensamento por trás de um bom design. Leio constantemente (ficção, filosofia, tecnologia), e estou sempre aprendendo algo novo (atualmente Rust)."
+      }
+    },
+    {
+      "type": "experience",
+      "title": {
+        "en": "EXPERIENCE",
+        "pt": "EXPERIÊNCIA"
+      },
+      "items": [
+        {
+          "company": "Visa (Pismo)",
+          "role": {
+            "en": "Senior Software Engineer",
+            "pt": "Senior Software Engineer"
+          },
+          "dateRange": {
+            "en": "Apr 2026 — Present",
+            "pt": "Abr 2026 — Presente"
+          },
+          "companyUrl": "https://www.pismo.io",
+          "logoUrl": "logos/visa_logo.png"
+        },
+        {
+          "company": "Bradesco",
+          "role": {
+            "en": "Senior Software Engineer",
+            "pt": "Senior Software Engineer"
+          },
+          "dateRange": {
+            "en": "Aug 2024 — Apr 2026",
+            "pt": "Ago 2024 — Abr 2026"
+          },
+          "companyUrl": "https://banco.bradesco",
+          "logoUrl": "logos/bradesco_logo.png"
+        },
+        {
+          "company": "XP Inc.",
+          "role": {
+            "en": "Backend Software Engineer",
+            "pt": "Software Engineer Backend"
+          },
+          "dateRange": {
+            "en": "Aug 2021 — Aug 2024",
+            "pt": "Ago 2021 — Ago 2024"
+          },
+          "companyUrl": "https://xpi.com.br",
+          "logoUrl": "logos/xp_logo.png"
+        },
+        {
+          "company": "Oi S.A.",
+          "role": {
+            "en": "Full Stack Developer",
+            "pt": "Desenvolvedor Full Stack"
+          },
+          "dateRange": {
+            "en": "Dec 2020 — Aug 2021",
+            "pt": "Dez 2020 — Ago 2021"
+          },
+          "companyUrl": "https://www.oi.com.br",
+          "logoUrl": "logos/oi_logo.png"
+        }
+      ]
+    },
+    {
+      "type": "skills",
+      "title": {
+        "en": "SKILLS",
+        "pt": "HABILIDADES"
+      },
+      "categories": [
+        {
+          "category": {
+            "en": "Languages & Frameworks",
+            "pt": "Linguagens & Frameworks"
+          },
+          "icon": "Code",
+          "skills": [
+            "Java",
+            "Go",
+            "C#",
+            ".NET",
+            "TypeScript",
+            "Node.js",
+            "Python",
+            "Spring Boot"
+          ]
+        },
+        {
+          "category": {
+            "en": "Databases",
+            "pt": "Bancos de Dados"
+          },
+          "icon": "Storage",
+          "skills": [
+            "MongoDB",
+            "Redis",
+            "PostgreSQL",
+            "MySQL",
+            "SQL Server",
+            "Dynamo DB"
+          ]
+        },
+        {
+          "category": {
+            "en": "Tools & Platforms",
+            "pt": "Ferramentas & Plataformas"
+          },
+          "icon": "Build",
+          "skills": [
+            "Docker",
+            "Kubernetes",
+            "Kafka",
+            "RabbitMQ",
+            "AWS",
+            "Azure (2x certified)",
+            "TDD",
+            "Terraform"
+          ]
+        },
+        {
+          "category": {
+            "en": "Currently Learning",
+            "pt": "Aprendendo"
+          },
+          "icon": "Terminal",
+          "skills": [
+            "Rust"
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "blog",
+      "title": {
+        "en": "WRITING",
+        "pt": "ESCRITA"
+      },
+      "moreUrl": "https://rodrigomilitao.substack.com/",
+      "items": [
+        {
+          "title": {
+            "en": "Engenharia de Contexto vs. Engenharia de Prompt: A evolução do desenvolvimento de software.",
+            "pt": "Engenharia de Contexto vs. Engenharia de Prompt: A evolução do desenvolvimento de software."
+          },
+          "excerpt": {
+            "en": "Por que focar apenas em prompts vai estagnar sua carreira, e como a Engenharia de Contexto muda o jogo.",
+            "pt": "Por que focar apenas em prompts vai estagnar sua carreira, e como a Engenharia de Contexto muda o jogo."
+          },
+          "url": "https://rodrigomilitao.substack.com/p/o-fim-do-codigo-como-gargalo-por",
+          "date": {
+            "en": "June 09, 2026",
+            "pt": "09 de Junho, 2026"
+          }
+        },
+        {
+          "title": {
+            "en": "[Designing Data-Intensive Applications] Resumo – Capítulo 1",
+            "pt": "[Designing Data-Intensive Applications] Resumo – Capítulo 1"
+          },
+          "excerpt": {
+            "en": "Os três princípios de design que todo engenheiro de software deveria dominar.",
+            "pt": "Os três princípios de design que todo engenheiro de software deveria dominar."
+          },
+          "url": "https://rodrigomilitao.substack.com/p/designing-data-intensive-applications",
+          "date": {
+            "en": "June 06, 2026",
+            "pt": "06 de Junho, 2026"
+          }
+        },
+        {
+          "title": {
+            "en": "O verdadeiro desafio não é escrever código, é entendê-lo.",
+            "pt": "O verdadeiro desafio não é escrever código, é entendê-lo."
+          },
+          "excerpt": {
+            "en": "Escrever código é simples. Ler código, nem tanto. O futuro da programação depende disso.",
+            "pt": "Escrever código é simples. Ler código, nem tanto. O futuro da programação depende disso."
+          },
+          "url": "https://rodrigomilitao.substack.com/p/o-verdadeiro-desafio-nao-e-escrever",
+          "date": {
+            "en": "September 12, 2025",
+            "pt": "12 de Setembro, 2025"
+          }
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "title": {
+        "en": "READING",
+        "pt": "LEITURA"
+      },
+      "moreLabel": "More",
+      "items": [
+        {
+          "title": "Designing Data-Intensive Applications",
+          "author": "Martin Kleppmann",
+          "status": "reading",
+          "url": "https://www.amazon.com/s?k=Designing+Data-Intensive+Applications+Martin+Kleppmann",
+          "coverUrl": "https://m.media-amazon.com/images/I/51GD5pIysbL._AC_UY218_.jpg"
+        },
+        {
+          "title": "Database Internals",
+          "author": "Alex Petrov",
+          "status": "reading",
+          "url": "https://www.amazon.com/s?k=Database+Internals+Alex+Petrov",
+          "coverUrl": "https://covers.openlibrary.org/b/id/14572292-M.jpg"
+        },
+        {
+          "title": "O Problema dos Três Corpos",
+          "author": "Liu Cixin",
+          "status": "reading",
+          "url": "https://www.amazon.com/s?k=O+Problema+dos+Tr%C3%AAs+Corpos+Liu+Cixin",
+          "coverUrl": "https://covers.openlibrary.org/b/id/9157544-M.jpg"
+        },
+        {
+          "title": "Clean Architecture",
+          "author": "Robert C. Martin",
+          "url": "https://www.amazon.com/s?k=Clean+Architecture+Robert+C.+Martin",
+          "coverUrl": "https://covers.openlibrary.org/b/id/8605114-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Cracking the Coding Interview",
+          "author": "Gayle Laakmann McDowell",
+          "url": "https://www.amazon.com/s?k=Cracking+the+Coding+Interview+Gayle+Laakmann+McDowell",
+          "coverUrl": "https://covers.openlibrary.org/b/id/7276811-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Entendendo Algoritmos",
+          "author": "Aditya Bhargava",
+          "url": "https://www.amazon.com/s?k=Entendendo+Algoritmos+Aditya+Bhargava",
+          "coverUrl": "https://covers.openlibrary.org/b/id/13780321-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Aprenda Domain-Driven Design",
+          "author": "Vlad Khononov",
+          "url": "https://www.amazon.com/s?k=Domain-Driven+Design+Vlad+Khononov",
+          "coverUrl": "https://m.media-amazon.com/images/I/819gVKYN7HL._AC_UY218_.jpg",
+          "status": "read"
+        },
+        {
+          "title": "O Mítico Homem-Mês",
+          "author": "Frederick Brooks",
+          "url": "https://www.amazon.com/M%C3%ADtico-Homem-M%C3%AAs-Ensaios-Engenharia-Software/dp/8550802530/ref=sr_1_1",
+          "coverUrl": "https://m.media-amazon.com/images/I/71HNGP3tJbL._AC_UY218_.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Fundamentals of Software Architecture",
+          "author": "Neal Ford",
+          "url": "https://www.amazon.com/s?k=Fundamentals+of+Software+Architecture+Neal+Ford",
+          "coverUrl": "https://covers.openlibrary.org/b/id/10193363-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Microserviços Prontos pra Produção",
+          "author": "Susan J. Fowler",
+          "url": "https://www.amazon.com/s?k=Microservi%C3%A7os+Prontos+pra+Produ%C3%A7%C3%A3o+Susan+Fowler",
+          "coverUrl": "https://m.media-amazon.com/images/I/81wWegQvePL._AC_UY218_.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Roube como um Artista",
+          "author": "Austin Kleon",
+          "url": "https://www.amazon.com/s?k=Roube+como+um+Artista+Austin+Kleon",
+          "coverUrl": "https://covers.openlibrary.org/b/id/11204263-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "O Monge e o Executivo",
+          "author": "James C. Hunter",
+          "url": "https://www.amazon.com/s?k=O+Monge+e+o+Executivo+James+C.+Hunter",
+          "coverUrl": "https://covers.openlibrary.org/b/id/5060643-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Como Fazer Amigos e Influenciar Pessoas",
+          "author": "Dale Carnegie",
+          "url": "https://www.amazon.com/s?k=Como+Fazer+Amigos+e+Influenciar+Pessoas+Dale+Carnegie",
+          "coverUrl": "https://covers.openlibrary.org/b/id/13314878-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Segredos da Mente Milionária",
+          "author": "T. Harv Eker",
+          "url": "https://www.amazon.com/s?k=Segredos+da+Mente+Milion%C3%A1ria+T.+Harv+Eker",
+          "coverUrl": "https://covers.openlibrary.org/b/id/13876089-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "A Única Coisa",
+          "author": "Gary Keller",
+          "url": "https://www.amazon.com/s?k=A+%C3%9Anica+Coisa+Gary+Keller",
+          "coverUrl": "https://covers.openlibrary.org/b/id/10351762-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Dopamine Detox",
+          "author": "Thibaut Meurisse",
+          "url": "https://www.amazon.com/s?k=Dopamine+Detox+Thibaut+Meurisse",
+          "coverUrl": "https://covers.openlibrary.org/b/id/15089568-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Harry Potter e o Prisioneiro de Azkaban",
+          "author": "J.K. Rowling",
+          "url": "https://www.amazon.com/s?k=Harry+Potter+e+o+Prisioneiro+de+Azkaban+J.K.+Rowling",
+          "coverUrl": "https://covers.openlibrary.org/b/id/15155833-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "Criaturas Impossíveis",
+          "author": "Katherine Rundell",
+          "url": "https://www.amazon.com/s?k=Criaturas+Imposs%C3%ADveis+Katherine+Rundell",
+          "coverUrl": "https://covers.openlibrary.org/b/id/14593524-M.jpg",
+          "status": "read"
+        },
+        {
+          "title": "14 Habits of Highly Productive Developers",
+          "author": "Zeno Rocha",
+          "url": "https://www.amazon.com.br/14-Habits-Highly-Productive-Developers/dp/1735266531/ref=asc_df_1735266531",
+          "coverUrl": "https://m.media-amazon.com/images/I/41ySvTZnSUL._SY445_SX342_ML2_.jpg",
+          "status": "read"
+        }
+      ]
+    }
+  ],
+  "closingQuote": {
+    "en": "\"We are what we repeatedly do. Excellence, then, is not an act, but a habit.\" — Aristotle",
+    "pt": "\"Nós somos o que repetidamente fazemos. A excelência, portanto, não é um ato, mas um hábito.\" — Aristóteles"
+  }
+}
